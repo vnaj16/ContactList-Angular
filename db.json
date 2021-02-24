@@ -1,0 +1,14 @@
+{
+  "users": [
+    {"userId": 1, "name": "Arthur", "login": "vnaj16", "password":123},
+    {"userId": 2, "name": "Javier", "login": "javi25", "password":123}
+  ],
+  "contacts":[
+    {"contactId": 1, "name": "Lucas", "phoneNumber": "922329658", "userId": 1},
+    {"contactId": 2, "name": "Pedro", "phoneNumber": "922459688", "userId": 1},
+    {"contactId": 3, "name": "Lucia", "phoneNumber": "922329658", "userId": 1},
+    {"contactId": 4, "name": "Samir", "phoneNumber": "922459688", "userId": 2},
+    {"contactId": 5, "name": "Melisa", "phoneNumber": "922329658", "userId": 2},
+    {"contactId": 6, "name": "Jorge", "phoneNumber": "922459688", "userId": 2}
+  ]
+}

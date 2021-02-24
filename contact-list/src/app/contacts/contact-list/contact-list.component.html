@@ -1,0 +1,16 @@
+<ul>
+  <li *ngFor="let contactItem of contacts">
+    <div class="card" style="width: 18rem">
+      <img
+        src="https://www.flaticon.com/svg/vstatic/svg/1004/1004766.svg?token=exp=1614134029~hmac=809fed35441544ceffefbfdd3d93efc2"
+        class="card-img-top"
+        alt="..."
+      />
+      <div class="card-body">
+        <h5 class="card-title">{{ contactItem.name }}</h5>
+        <span>Llamar: </span>
+        <a class="btn btn-primary" href='tel:{{contactItem.phoneNumber}}'>{{contactItem.phoneNumber}}</a>
+      </div>
+    </div>
+  </li>
+</ul>
